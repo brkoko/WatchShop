@@ -117,7 +117,7 @@ https://templatemo.com/tm-546-sixteen-clothing
     <h1>Login</h1>
     
     <?php if ($is_invalid): ?>
-        <em>Invalid login</em>
+        <em>Zle prihlasovacie udaje</em>
     <?php endif; ?>
     
     <form class="login" method="post">

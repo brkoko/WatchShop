@@ -82,6 +82,11 @@ https://templatemo.com/tm-546-sixteen-clothing
 
     <!-- Page Content -->
     <!-- Banner Starts Here -->
+
+    <?php if (isset($_SESSION["user_id"])): ?>
+        
+        
+        
     <div class="page-heading contact-heading header-text">
       <div class="container">
         <div class="row">
@@ -94,6 +99,23 @@ https://templatemo.com/tm-546-sixteen-clothing
         </div>
       </div>
     </div>
+
+    <?php else: ?>
+        <div class="page-heading contact-heading header-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-content">
+              
+              <h2>Nie ste prihlaseny</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <?php endif; ?>
 
     
     
