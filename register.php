@@ -85,22 +85,22 @@ https://templatemo.com/tm-546-sixteen-clothing
     
     <form action="process-register.php" method="post" id="signup" novalidate>
         <div>
-            <label for="name">Name</label>
+            <label for="name">Meno</label>
             <input type="text" id="name" name="name">
         </div>
         
         <div>
-            <label for="email">email</label>
+            <label for="email">Email</label>
             <input type="email" id="email" name="email">
         </div>
         
         <div>
-            <label for="password">Password</label>
+            <label for="password">Heslo</label>
             <input type="password" id="password" name="password">
         </div>
         
         <div>
-            <label for="password_confirmation">Repeat password</label>
+            <label for="password_confirmation">Znova heslo</label>
             <input type="password" id="password_confirmation" name="password_confirmation">
         </div>
         

@@ -9,9 +9,9 @@ function getWatches(){
         <div class="product-item">
           <a href="#"><img src="'.$watch['img'].'" alt=""></a>
           <div class="down-content">
-            <a href="#"><h4>'.$watch['model'].'</h4></a>
+            <a href="#"><h4>'.$watch['brand'].'</h4></a>
             <h6>'.$watch['price'].'$</h6>
-            <p>'.$watch['brand'].'</p>
+            <p>'.$watch['model'].'</p>
           </div>
         </div>
       </div> ';
@@ -52,9 +52,9 @@ function getWatchesAdmin(){
               
               <div class="product-content">
               <input type = "text" name = "img"  placeholder = "img-src">
-                  <h5><input type = "text" name = "brand" placeholder = "brand"></h5>
-                  <span class="tagline"><input type = "text" name = "model" placeholder = "model" ></span>
-                  <span class="price"><input type = "text" name = "price" placeholder = "price"></span>
+                  <h5><input type = "text" name = "brand" placeholder = "znacka"></h5>
+                  <span class="tagline"><input type = "text" name = "model" placeholder = "popis" ></span>
+                  <span class="price"><input type = "text" name = "price" placeholder = "sena"></span>
                   
                   <input type = "submit" name = "add_watch" value = "Pridat">
                   

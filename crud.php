@@ -6,7 +6,6 @@ if (isset($_POST['edit_watch'])) {
         'brand' => $_POST['brand'],
         'model' => $_POST['model'],
         'price' => $_POST['price'],
-        
         'img'  => $_POST['img']
     ];
     $query = "UPDATE watches SET brand = ?, model = ?, price = ?, img = ? WHERE id = ?";
@@ -14,7 +13,6 @@ if (isset($_POST['edit_watch'])) {
     $query_run->bind_param('ssdsi', 
                                      $data['brand'],
                                      $data['model'],
-                                     
                                      $data['price'],
                                      $data['img'],
                                      $data['id']);

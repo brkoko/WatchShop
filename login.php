@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                    $mysqli->real_escape_string($_POST["email"]));
     
     $result = $mysqli->query($sql);
-    
+      
     $users = $result->fetch_assoc();
     
     if ($users) {
@@ -45,7 +45,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>Sixteen Clothing - Contact Page</title>
+    <title>Watch shop</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -122,14 +122,14 @@ https://templatemo.com/tm-546-sixteen-clothing
     <?php endif; ?>
     
     <form class="login" method="post">
-        <label for="email">email</label>
+        <label for="email">Email</label>
         <input type="email" name="email" id="email">
                
         
-        <label for="password">Password</label>
+        <label for="password">Heslo</label>
         <input type="password" name="password" id="password">
         
-        <button>Log in</button>
+        <button>Prihlasit</button>
     </form>
 
     
