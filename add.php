@@ -17,6 +17,7 @@ session_start();
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/form.css">
 <!--
 
 TemplateMo 546 Sixteen Clothing
@@ -99,6 +100,12 @@ https://templatemo.com/tm-546-sixteen-clothing
         </div>
       </div>
     </div>
+    <?php
+
+   
+    include('getWatch.php');
+    getWatchesAdmin();
+    ?>
 
     <?php else: ?>
         <div class="page-heading contact-heading header-text">

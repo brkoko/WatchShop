@@ -1,7 +1,7 @@
 <?php
 
 $host = "localhost";
-$dbname = "watchshop";
+$dbname = "watchesshop";
 $username = "root";
 $password = "";
 
