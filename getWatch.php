@@ -12,8 +12,6 @@ function getWatches(){
             <a href="#"><h4>'.$watch['model'].'</h4></a>
             <h6>'.$watch['price'].'$</h6>
             <p>'.$watch['brand'].'</p>
-            
-            <span>Reviews (24)</span>
           </div>
         </div>
       </div> ';

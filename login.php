@@ -62,6 +62,7 @@ https://templatemo.com/tm-546-sixteen-clothing
     <link rel="stylesheet" href="assets/css/templatemo-sixteen.css">
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/form.css">
+    <link rel="stylesheet" href="assets/css/login.css">
 
     <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js" defer></script>
     <script src="/js/validation.js" defer></script>
@@ -107,14 +108,14 @@ https://templatemo.com/tm-546-sixteen-clothing
           <div class="col-md-12">
             <div class="text-content">
               
-              <h2>Pridat inzerat</h2>
+              <h2>Prihlasenie</h2>
             </div>
           </div>
         </div>
       </div>
     </div>
     
-    <h1>Login</h1>
+  
     
     <?php if ($is_invalid): ?>
         <em>Zle prihlasovacie udaje</em>

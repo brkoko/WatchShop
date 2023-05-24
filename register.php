@@ -26,6 +26,7 @@ https://templatemo.com/tm-546-sixteen-clothing
     <link rel="stylesheet" href="assets/css/templatemo-sixteen.css">
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/form.css">
+    <link rel="stylesheet" href="assets/css/register.css">
 
     <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js" defer></script>
     <script src="/js/validation.js" defer></script>
@@ -73,14 +74,14 @@ https://templatemo.com/tm-546-sixteen-clothing
           <div class="col-md-12">
             <div class="text-content">
               
-              <h2>Pridat inzerat</h2>
+              <h2>Registracia</h2>
             </div>
           </div>
         </div>
       </div>
     </div>
     
-    <h1>Signup</h1>
+
     
     <form action="process-register.php" method="post" id="signup" novalidate>
         <div>
@@ -103,7 +104,7 @@ https://templatemo.com/tm-546-sixteen-clothing
             <input type="password" id="password_confirmation" name="password_confirmation">
         </div>
         
-        <button>Sign up</button>
+        <button>Registrovat</button>
     </form>
 
     
